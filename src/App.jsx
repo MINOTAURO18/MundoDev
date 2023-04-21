@@ -13,11 +13,11 @@ function App() {
     <main>
       <Nav/>
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/articulos" element={<Articulos />} />
-        <Route path="/info" element={<Info />} />
-        <Route path="/contacto" element={<Contacto />} />
-        <Route path="/formulario" element={<Formulario />} />
+        <Route path="/MundoDev/" element={<Inicio />} />
+        <Route path="/MundoDev/articulos" element={<Articulos />} />
+        <Route path="/MundoDev/info" element={<Info />} />
+        <Route path="/MundoDev/contacto" element={<Contacto />} />
+        <Route path="/MundoDev/formulario" element={<Formulario />} />
       </Routes>
 
     </main>
