@@ -1,6 +1,12 @@
+main{
+  width: 100%;
+  height: auto;
+}
+
 .inicio{
   width: 90%;
-  height: 90vh;
+  height: auto;
+  min-height: 90vh;
   margin: auto;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -105,3 +111,43 @@
   
 }
 
+.sobre{
+  background:white;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 5% ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.sobre h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #d30cda, #7b0ce2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sobre h3{
+  color: #8b7003;
+}
+
+.sobre p{
+  font-size: 1.3rem;
+  max-width: 500px;
+}
+
+.sobreN{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mapa img{
+  border-radius: 15px;
+}
