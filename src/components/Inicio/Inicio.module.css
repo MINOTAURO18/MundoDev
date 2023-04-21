@@ -134,7 +134,7 @@ main{
 }
 
 .sobre h3{
-  color: #8b7003;
+  color: #08930f;
 }
 
 .sobre p{
@@ -150,4 +150,102 @@ main{
 
 .mapa img{
   border-radius: 15px;
+}
+
+
+.servicios{
+  background:linear-gradient(150deg,  #e103cb, #5b05a5);
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+  padding: 5% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios .cards{
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.cards .card{
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card div{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(149, 7, 137);
+  font-weight: 700;
+  width: 110px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 7px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+.card div:hover{
+  background-color: rgb(149, 7, 137);
+  color: white;
+  border: 2px solid rgb(149, 7, 137);
+}
+
+
+.cards  .card2, .card3{
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card2 span{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card3 span{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards p{
+  font-size: 1.2rem;
+  opacity: .8;
+  font-weight: 600;
+}
+
+
+
+.cards h3{
+ color: #00ff33;
+ font-size: 1.1rem;
+}
+
+.cards h2{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+.tecno{
+  background-color: white;
+  width: 100%;
+  min-height: 70vh;
+  height: auto;
+  padding: 5%;
+
+
 }

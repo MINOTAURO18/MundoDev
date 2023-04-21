@@ -54,6 +54,69 @@ const Inicio = () => {
     </div>
 
   </section>
+
+
+  <section className={styles.servicios}>
+
+    <div className={styles.cards}>
+
+      <div className={styles.card}>
+        <h3>CARACTERISTICAS</h3>
+        <h2>Clústeres de PostgreSQL</h2>
+        <p>Inicie clústeres de PostgreSQL de alta disponibilidad con un solo comando y una generosa capa gratuita. Crea réplicas de lectura en diferentes ciudades.</p>
+        <div>Leer más</div>
+      </div>
+
+      <div className={styles.card2}>
+        <h3>FAVORITOS CALIENTES Y LISTOS</h3>
+        <span>
+          <h2>CPU, memoria y almacenamiento al alcance de la mano</h2>
+          <p>Proporcione exactamente lo que necesita para que sus aplicaciones funcionen. Paga solo por lo que usas.</p>
+        </span>
+
+        <span>
+          <h2>Métricas y Alertas</h2>
+          <p>La fontanería que necesitas para dormir por la noche. Bonitos gráficos para el café de la mañana.</p>
+        </span>
+      </div>
+
+      <div className={styles.card3}>
+        <h3>Más</h3>
+      <span>
+          <h2>Baterías incluidas Redes</h2>
+          <p>Redes privadas de configuración cero y equilibrio de carga global.</p>
+        </span>
+
+        <span>
+          <h2>SSL a cualquier escala</h2>
+          <p>Agregue certificados para sus propios fines o un millón para sus clientes.</p>
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section className={styles.tecno}>
+
+    <article className={styles.sobreTecno}>
+      <h3>usamos los mejor</h3>
+      <h2>Usa la tecnología que amas</h2>
+      <p>en MundoDev puedes usar y aprender las tenconologias que mas te gustan</p>
+      <div>
+        Leer mas
+      </div>
+    </article>
+
+    <div className={styles.tecno}>
+
+      
+
+    </div>
+
+  </section>
   </main>
     )
 }
