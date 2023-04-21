@@ -10,8 +10,8 @@ const Nav = () => {
         </div>
         <nav className={styles.nav}>
           <Link to="/MundoDev/">Inicio</Link>
-          <Link to="/MundoDev/articulos">articulos</Link>
-          <Link to="/MundoDev/info">Info</Link>
+          <Link to="/MundoDev/articulos">Articulos</Link>
+          <Link to="/MundoDev/info">Extras</Link>
           <Link to="/MundoDev/Contacto">Contacto</Link>
         </nav>
 

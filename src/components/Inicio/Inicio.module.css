@@ -31,7 +31,7 @@
 .bloqueOne p{
   color: white;
   max-width: 520px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   opacity: .7;
 }
 
@@ -57,14 +57,27 @@
 }
 
 .padre{
-  background-color: #101010; 
-  opacity: 0.2;
-  width: 600px;
-  height: 300px;
-  border: 2px solid black;
-  border-radius: 15px;
+  background-color: #000000; 
+  opacity: 0.35;
+  width: 100%;
+  padding: 25px;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: 10% 80%;
+  align-items: flex-end;
+}
+
+.padre .dolar{
+  color:rgb(119, 255, 0);
+}
+
+.padre h4{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px #000000;
+  
+  
 }
 .eli{
   visibility: hidden;

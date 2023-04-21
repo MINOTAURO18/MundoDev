@@ -4,7 +4,7 @@ const Inicio = () => {
       <section className={styles.inicio}>
         <article className={styles.bloqueOne}>
           <h1><span>MundoDev</span> tu fuente de información mas confiable</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptas in nam obcaecati odio labore </p>
+          <p>en MundoDev se pueden encontrar recursos y artículos sobre una amplia variedad de lenguajes de programación y tecnologías.  </p>
           <a href="#">Explora Ya</a>
         </article>
 
@@ -22,17 +22,19 @@ const Inicio = () => {
 
     <div className={styles.code}>
       <h4><span>></span> Install https://MundoDev/insatll.sh | sh</h4>
-      <h4><span>$</span> curl -L https://fly.io/install.sh | sh</h4>
+      <h4><span className={styles.dolar}>$</span> curl -L https://minotauro18.io/MundoDev/.sh | sh</h4>
       <h4 className={styles.eli}>vacio</h4>
       <h4><span>></span> Ship a Docker image</h4>
-      <h4><span>$</span> MundoDevtl deploy</h4>
+      <h4><span className={styles.dolar}>$</span> MundoDevtl deploy</h4>
       <h4 className={styles.eli}>vacio</h4>
       <h4><span>></span> Run ir on three Continents</h4>
-      <h4><span>$</span> MundoDevtl regions add ams hkg sjc</h4>
+      <h4><span className={styles.dolar}>$</span> MundoDevtl regions add ams hkg sjc</h4> 
     </div>
 
   </div>
-      </section>
+
+
+  </section>
     )
 }
 
