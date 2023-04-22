@@ -30,8 +30,8 @@ const Nav = () => {
         </div>
         <nav className={styles.nav}>
           <Link to="/MundoDev/">Inicio</Link>
-          <Link to="/MundoDev/articulos">Articulos</Link>
-          <Link to="/MundoDev/info">Extras</Link>
+          <Link to="/MundoDev/articulos">Recursos</Link>
+          <Link to="/MundoDev/info">Articulos</Link>
         </nav>
 
         <Botones/>

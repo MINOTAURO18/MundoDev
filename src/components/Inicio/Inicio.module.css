@@ -157,7 +157,7 @@ main{
   background:linear-gradient(150deg,  #e103cb, #5b05a5);
   width: 100%;
   height: auto;
-  min-height: 80vh;
+  min-height: 70vh;
   padding: 5% ;
   display: flex;
   justify-content: center;
