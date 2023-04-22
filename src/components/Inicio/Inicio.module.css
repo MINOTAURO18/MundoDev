@@ -112,7 +112,7 @@ main{
 }
 
 .sobre{
-  background:white;
+  background:rgb(238, 233, 233);
   width: 100%;
   height: auto;
   min-height: 100vh;
@@ -180,7 +180,7 @@ main{
 
 .card div{
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(238, 233, 233);
   color: rgb(149, 7, 137);
   font-weight: 700;
   width: 110px;

@@ -1,9 +1,11 @@
 import styles from '../Formulario/Formulario.module.css'
+import frase from '../../assets/frase.webp'
 const Formulario = () => {
     return(
      <div className={styles.padre}>
+
         <div className={styles.formContainer}>
-	<p className={styles.title}>Login</p>
+	<p className={styles.title}>Iniciar sesión en su cuenta</p>
 	<form className="form">
 		<div className={styles.inputGroup}>
 			<label htmlFor="username">Username</label>
@@ -45,6 +47,13 @@ const Formulario = () => {
 		<a rel="noopener noreferrer" href="#" className="">Sign up</a>
 	</p>
 </div>
+
+
+  <div className={styles.fondo}>
+
+	<img src={frase} alt="" />
+
+  </div>
      </div>
      
     )

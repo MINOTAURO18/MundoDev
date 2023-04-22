@@ -7,7 +7,9 @@
 }
 
 .btn div{
-  color:rgb(255, 255, 255) ;
+  font-weight: 600;
+  background-color: white;
+  color:rgb(149, 7, 137) ; 
   width: 95px;
   height: 35px;
   border: 2px solid white;
