@@ -1,6 +1,22 @@
 import styles from '../Inicio/Inicio.module.css'
 import mapa from '../../assets/mapa.webp'
+import img0 from '../../assets/python.svg'
+import img1 from '../../assets/js.svg'
+import img2 from '../../assets/django.svg'
+import img3 from '../../assets/react.svg'
+import img4 from '../../assets/node.svg'
+import img5 from '../../assets/psql.svg'
+import img6 from '../../assets/rust.svg'
+import img7 from '../../assets/docker.svg'
+import img8 from '../../assets/typ.svg'
+import img9 from '../../assets/crystal.svg'
+import img10 from '../../assets/redux.svg'
+import img11 from '../../assets/sass.svg'
 const Inicio = () => {
+
+  const tecnologias = [img0,img9,img10,img11, img1, img2, img3, img4, img5, img6, img7, img8];
+
+
     return(
   <main>  
       <section className={styles.inicio}>
@@ -99,20 +115,28 @@ const Inicio = () => {
   </section>
 
 
-  <section className={styles.tecno}>
+  <section className={styles.tecno}> 
 
-    <article className={styles.sobreTecno}>
+    <div className={styles.sobreTecno}>
       <h3>usamos los mejor</h3>
       <h2>Usa la tecnología que amas</h2>
       <p>en MundoDev puedes usar y aprender las tenconologias que mas te gustan</p>
       <div>
         Leer mas
       </div>
-    </article>
+    </div>
 
-    <div className={styles.tecno}>
+    <div className={styles.tecno2}>
 
-      
+      {
+        tecnologias.map((img, index) => {
+          return(
+            <div className={styles.tecnoImg} key={index}>
+              <img width='65px' src={img} alt="tecnologia" />
+            </div>
+          )
+        })
+      }
 
     </div>
 
