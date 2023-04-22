@@ -12,9 +12,15 @@ import img8 from '../../assets/typ.svg'
 import img9 from '../../assets/crystal.svg'
 import img10 from '../../assets/redux.svg'
 import img11 from '../../assets/sass.svg'
+import img12 from '../../assets/github.svg'
+import img13 from '../../assets/instagram.svg'
+import img14 from '../../assets/linkedin.svg'
+import img15 from '../../assets/Twiter.svg'
 const Inicio = () => {
 
   const tecnologias = [img0,img9,img10,img11, img1, img2, img3, img4, img5, img6, img7, img8];
+
+  const redes = [img12,img13,img14,img15]
 
 
     return(
@@ -137,6 +143,64 @@ const Inicio = () => {
           )
         })
       }
+
+    </div>
+
+  </section>
+
+
+  <section className={styles.footer}>
+
+    <div className={styles.footer2}>
+
+      <div>
+        <h3>Contacto</h3>
+        <span>Github</span>
+        <span>Comunidad</span>
+        <span>Linkedin</span>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <span>Github</span>
+        <span>Comunidad</span>
+        <span>Linkedin</span>
+      </div>
+
+      <div>
+        <h3>Compañia</h3>
+        <span>Acerca de</span>
+        <span>Precios</span>
+        <span>Trabajos</span>
+      </div>
+
+      <div>
+        <h3>Articulos</h3>
+        <span>Blog</span>
+        <span>Envios</span>
+        <span>Rebajas</span>
+      </div>
+
+      <span>
+        <h2>MundoDev</h2>
+      </span>
+
+    </div>
+
+    <div className={styles.redes}>
+
+      <span>Hecho por JAMY</span>
+
+        {
+          redes.map((img, index) => {
+            return(
+              <div className={styles.redesImg} key={index}>
+                <img width='30px' src={img} alt="redes" />
+              </div>
+            )
+          })
+        }
+        
 
     </div>
 

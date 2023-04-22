@@ -307,12 +307,85 @@ main{
 }
 
 .sobreTecno div{
+  cursor: pointer;
   width: 110px;
   height: 40px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 7px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+.sobreTecno div:hover{
+  background-color: rgb(149, 7, 137);
+  border: 1px solid rgb(149, 7, 137);
+  color: white;
+}
+
+
+.footer{
+  background:linear-gradient(130deg,  #240134, #50024d , #011c2e);
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  padding: 5% 5% 30px 5%;
+}
+
+.footer2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer2 h3{
+  font-size: 1.3rem;
+  color: white;
+  cursor: default;
+}
+
+.footer2 span{
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  opacity: .6;
+}
+
+.redes{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+
+}
+
+.redes span{
+  cursor: default;
+  font-size: 1.4rem;
+  color: white; 
+}
+
+.redesImg{
+  display: flex;
+  
+}
+
+.redesImg img{
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(288deg) brightness(105%) contrast(101%);
 }
