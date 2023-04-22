@@ -8,9 +8,7 @@ const Botones = () => {
           <div>ingresar</div>
         </Link>
 
-        <Link to='/MundoDev/formulario'>
-          <div>comenzar</div>
-        </Link>
+       
 
         
       </div>

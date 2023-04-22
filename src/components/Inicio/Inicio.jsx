@@ -198,7 +198,7 @@ const Inicio = () => {
                 <img width='30px' src={img} alt="redes" />
               </div>
             )
-          })
+          }) 
         }
         
 

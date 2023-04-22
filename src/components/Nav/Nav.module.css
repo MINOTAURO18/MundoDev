@@ -1,10 +1,21 @@
-.header{
-  width: 90%;
+header{
+  z-index: 9;
+  position: sticky;
+  top: 0;
+  width: 100%;
   height: 10vh;
+  padding: 0 5%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 22% 56% 22%;
   align-items: center;
+  transition: background-color 0.5s ease-in-out; 
+}
+
+
+
+header.scrolled {
+  background:linear-gradient(130deg,  #240134, #50024d , #240134);
 }
 
 .nav{
