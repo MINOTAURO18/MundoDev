@@ -132,7 +132,7 @@ const Inicio = () => {
       <p>en MundoDev puedes usar y aprender las tenconologias que mas te gustan</p>
       <Link to='/MundoDev/articulos'>
       <div>
-        Leer mas
+        Leer mas 
       </div>
       </Link>
     </div>

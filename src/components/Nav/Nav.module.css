@@ -24,13 +24,18 @@ header.scrolled {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 80px;
 }
 
 .nav a {
   text-decoration: none;
   color: white;
   font-weight: 600;
+  transition: all .2s ease-in-out;
+}
+
+.nav a:hover{
+  color: rgb(141, 3, 151);
 }
 
 .logo{

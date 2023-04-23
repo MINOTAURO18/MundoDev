@@ -220,7 +220,7 @@ const Articulos = () => {
         </section>
 
         <section className={styles.fron}>
-          <h2>lenguajes del frontend</h2>
+          <h2>Lenguajes Frontend</h2>
           <div className={styles.tecnoFron}> 
 
             {
@@ -268,7 +268,7 @@ const Articulos = () => {
 
 
         <section className={styles.fron}>
-        <h2>Lenguajes del backend</h2>
+        <h2>Lenguajes backend</h2>
           <div className={styles.tecnoFron}>
             {
               back.map((back, index) => {
@@ -290,7 +290,7 @@ const Articulos = () => {
 
 
         <section className={styles.frame}>
-          <h2>Frameworks del Backend</h2>
+          <h2>Frameworks y Librerias Backend</h2>
 
           <div className={styles.tecnoFron}>
             {

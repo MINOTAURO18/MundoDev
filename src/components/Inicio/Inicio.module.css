@@ -154,8 +154,8 @@ main{
 
 
 .servicios{
-  background:linear-gradient(150deg,  #e103cb, #5b05a5);
-  width: 100%;
+  background:linear-gradient(150deg,  #5b05a5, #e103cb);
+  width: 100%; 
   height: auto;
   min-height: 70vh;
   padding: 5% ;
