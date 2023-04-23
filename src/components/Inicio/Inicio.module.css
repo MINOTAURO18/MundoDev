@@ -194,6 +194,11 @@ main{
   transition: all .3s ease-in-out;
 }
 
+.card  a{
+  color:rgb(149, 7, 137); 
+  text-decoration: none;
+}
+
 .card div:hover{
   background-color: rgb(149, 7, 137);
   color: white;
@@ -304,6 +309,12 @@ main{
   width: 80%;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.sobreTecno a{
+  text-decoration: none;
+  color:rgb(149, 7, 137) ;
+  font-weight: 600;
 }
 
 .sobreTecno div{

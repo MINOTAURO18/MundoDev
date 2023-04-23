@@ -9,14 +9,15 @@
 
 
 .intro{
- background: linear-gradient(150deg, #e103cb, #5b05a5);
-  width: 100%;
+ background: linear-gradient(150deg, #5b05a5, #e103cb);
+  width: 100%; 
   height:auto ;
   padding: 5%;
   min-height: 40vh;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  opacity: .9;
 }
 
 .intro h2{
@@ -44,10 +45,11 @@
 }
 
 .fron h2{
+  margin-bottom: 20px;
     font-size: 2.5rem;
-    background-image: linear-gradient(to right, #d30cda, #7b0ce2);
+    background-image: linear-gradient(to right, #7b0ce2, #d30cda);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent; 
 }
 
 .tecnoFron{
@@ -67,15 +69,20 @@
   background-color: white;
   width: 380px;
   min-height: 250px;
-  border: 1px solid rgb(184, 171, 171);
+  /* border: 1px solid rgb(184, 171, 171); */
   border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
   padding: 5px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.tecnoFron .fronItem:hover{
+  transform: translateY(-1px);
 }
 
 .fronItem div h3 {
@@ -87,4 +94,118 @@
     flex-direction: column;
     align-items: center;
     padding: 0 10px ;
+    transition: all .2s ease-in-out;
 }
+
+.fronItem .info:hover{
+   background-color: #e103cb;
+   border:1px solid #e103cb;
+}
+
+.fronItem .info{
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fronItem .info a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+
+
+
+
+.frame{
+  background: linear-gradient(150deg, #5b05a5, #e103cb);
+  width: 100%; 
+  height: auto; 
+  min-height: 90vh;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 30px;
+  align-items: center;
+ 
+}
+
+.frame h2{
+  font-size: 2.5rem;
+  background-image: linear-gradient(to right, #0cda4a, #0df54b);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+
+.tecnoFron{
+width: 100%;
+height: auto;
+min-height: 90vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.frameItem{
+cursor: pointer;
+opacity: .8;
+background-color: white;
+width: 380px;
+min-height: 250px;
+/* border: 1px solid rgb(184, 171, 171); */
+border-radius: 10px;
+box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+padding: 5px 0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+gap: 5px;
+transition: all .2s ease-in-out;
+}
+
+.frameItem:hover{
+transform: translateY(-1px);
+}
+
+.frameItem div h3 {
+  color: #e103cb;
+}
+
+.frameItem div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px ;
+  transition: all .2s ease-in-out;
+}
+
+.frameItem .info:hover{
+ background-color: #e103cb;
+ border:1px solid #e103cb;
+}
+
+.frameItem .info{
+width: 80px;
+height: 30px;
+border: 1px solid black;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.frameItem .info a{
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+

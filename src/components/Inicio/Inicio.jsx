@@ -16,6 +16,7 @@ import img12 from '../../assets/github.svg'
 import img13 from '../../assets/instagram.svg'
 import img14 from '../../assets/linkedin.svg'
 import img15 from '../../assets/Twiter.svg'
+import { Link } from 'react-router-dom'
 const Inicio = () => {
 
   const tecnologias = [img0,img9,img10,img11, img1, img2, img3, img4, img5, img6, img7, img8];
@@ -86,11 +87,13 @@ const Inicio = () => {
         <h3>CARACTERISTICAS</h3>
         <h2>Clústeres de PostgreSQL</h2>
         <p>Inicie clústeres de PostgreSQL de alta disponibilidad con un solo comando y una generosa capa gratuita. Crea réplicas de lectura en diferentes ciudades.</p>
+        <Link to='/MundoDev/articulos'>
         <div>Leer más</div>
+        </Link>
       </div>
 
       <div className={styles.card2}>
-        <h3>FAVORITOS CALIENTES Y LISTOS</h3>
+        <h3>FAVORITOS</h3>
         <span>
           <h2>CPU, memoria y almacenamiento al alcance de la mano</h2>
           <p>Proporcione exactamente lo que necesita para que sus aplicaciones funcionen. Paga solo por lo que usas.</p>
@@ -127,9 +130,11 @@ const Inicio = () => {
       <h3>usamos los mejor</h3>
       <h2>Usa la tecnología que amas</h2>
       <p>en MundoDev puedes usar y aprender las tenconologias que mas te gustan</p>
+      <Link to='/MundoDev/articulos'>
       <div>
         Leer mas
       </div>
+      </Link>
     </div>
 
     <div className={styles.tecno2}>
