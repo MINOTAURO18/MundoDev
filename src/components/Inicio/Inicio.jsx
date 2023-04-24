@@ -23,6 +23,8 @@ const Inicio = () => {
 
   const redes = [img12,img13,img14,img15]
 
+  
+
 
     return(
   <main>  

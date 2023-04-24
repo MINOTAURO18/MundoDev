@@ -44,7 +44,7 @@ const Formulario = () => {
 	</div>
 	<p className={styles.signup}>
          have an account?
-		<a rel="noopener noreferrer" href="#" className="">Sign up</a>
+		<a rel="noopener noreferrer" href="#" className="">Sign up</a> 
 	</p>
 </div>
 
