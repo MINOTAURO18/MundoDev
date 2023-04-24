@@ -138,9 +138,6 @@ const Info = () => {
     }
     soli();
    }, []);
-   console.log(data)
-   console.log(info.length)
-   console.log(data)
 
     return (
         <section className={styles.articulos}>
@@ -148,7 +145,7 @@ const Info = () => {
             <div className={styles.cards}>
 
             {
-                data.length != 0
+                data.length != 0 
                 ? data.splice(0,20).map((art,index) => {
                     return (
                         <div className={styles.card} key={index}>

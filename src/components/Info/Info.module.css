@@ -19,6 +19,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+}
+
+.card img{
+    border-radius: 15px 0 0 15px;
 }
 
 .texto{
@@ -63,4 +74,14 @@
 .card a:hover{
     background-color: #d30cda;
    color: #feffff;
+}
+
+@media (max-width: 600px){
+    .articulos img{
+        width: 300px;
+    }
+
+    .card{
+        justify-content: center;
+    }
 }
