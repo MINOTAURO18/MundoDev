@@ -22,24 +22,45 @@
 }
 
 .texto{
-  width:600px;
+  width:650px;
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
-  padding: 10px 10px 0 0;
+  padding: 10px 0;
 }
 
-h2{
+.card h2{
     color: #08930f;
 }
 
-h3{
+.card h3{
     background-image: linear-gradient(to right, #d30cda, #7b0ce2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-p{
- font-size: .9rem;
+.card p{
+ font-size: 1rem;
+}
+
+.card a{
+    color: #d30cda;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.card a:hover{
+    background-color: #d30cda;
+   color: #feffff;
 }

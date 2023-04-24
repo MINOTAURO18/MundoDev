@@ -79,7 +79,7 @@ const Inicio = () => {
   </section>
 
 
-  <section className={styles.servicios}>
+  <section className={styles.servicios}> 
 
     <div className={styles.cards}>
 

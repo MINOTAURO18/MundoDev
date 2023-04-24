@@ -366,7 +366,7 @@ main{
   color: white;
   cursor: default;
 }
-
+ 
 .footer2 span{
   cursor: pointer;
   font-size: 1.1rem;
@@ -401,3 +401,41 @@ main{
 .redesImg img{
   filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(288deg) brightness(105%) contrast(101%);
 }
+
+
+@media (max-width: 1000px){
+   .inicio{
+    padding: 30px 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   }
+}
+
+@media (max-width: 460px){
+  .card{
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px){
+  .inicio{
+    justify-content: center;
+    align-items: center; 
+  }
+  .padre{
+    display: none;
+  }
+
+  .tecno{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px){
+  .mapa img{
+    width: 300px;
+  }
+}
+
