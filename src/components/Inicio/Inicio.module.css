@@ -431,6 +431,18 @@ main{
     display: flex;
     flex-direction: column;
   }
+
+  .cards .card{
+    width: auto;
+  }
+
+  .cards .card2{
+    width: auto;
+  }
+
+  .cards .card3{
+    width: auto;
+  }
 }
 
 @media (max-width: 700px){

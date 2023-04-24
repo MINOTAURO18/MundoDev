@@ -32,8 +32,9 @@
 }
 
 
-/* @media (max-width: 600px){
-   .btn{
-        display: none;
+@media (max-width: 600px){
+   .btn div{
+      width: 75px;
+      height: 35px;
     }
-} */
+}
