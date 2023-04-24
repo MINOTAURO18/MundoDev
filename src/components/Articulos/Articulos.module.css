@@ -92,7 +92,7 @@
 }
 
 .tecnoFron .fronItem:hover{
-  transform: translateY(-1px);
+  transform: translateY(-5px);
 }
 
 .fronItem div h3 {
@@ -188,7 +188,7 @@ transition: all .2s ease-in-out;
 }
 
 .frameItem:hover{
-transform: translateY(-1px);
+transform: translateY(-5px);
 }
 
 .frameItem div h3 {

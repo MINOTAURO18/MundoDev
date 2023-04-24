@@ -30,7 +30,9 @@ const Inicio = () => {
         <article className={styles.bloqueOne}>
           <h1><span>MundoDev</span> tu fuente de información mas confiable</h1>
           <p>en MundoDev se pueden encontrar recursos y artículos sobre una amplia variedad de lenguajes de programación y tecnologías.  </p>
+          <Link to='/MundoDev/info'>
           <a href="#">Explora Ya</a>
+          </Link>
         </article>
 
   <div className={styles.padre}>

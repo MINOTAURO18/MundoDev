@@ -215,7 +215,7 @@ const Articulos = () => {
 
         <section className={styles.intro}>
         
-        <h2>Dinfruta de la mejor informacion</h2>
+        <h2>Disfruta de la mejor información</h2>
         <p>Disfruta del mejor contenido en esta sección, donde encontrarás las tecnologías más demandadas en el mundo de la tecnología de la información (TI). Además, encontrarás la documentación adecuada y sus respectivos enlaces para que puedas acceder a la información de manera rápida y fácil. Mantente actualizado en el mundo de la tecnología y aprovecha al máximo todas las oportunidades que ofrece.</p>
         </section>
 
@@ -244,7 +244,7 @@ const Articulos = () => {
 
 
         <section className={styles.frame}>
-        <h2>Frameworks y Librerias</h2>
+        <h2>Frameworks y Librerías</h2>
 
         <div className={styles.tecnoFron}>
             {
@@ -290,7 +290,7 @@ const Articulos = () => {
 
 
         <section className={styles.frame}>
-          <h2>Frameworks y Librerias Backend</h2>
+          <h2>Frameworks y Librerías Backend</h2>
 
           <div className={styles.tecnoFron}>
             {
