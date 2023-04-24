@@ -78,7 +78,9 @@
 
 @media (max-width: 600px){
     .articulos img{
-        width: 300px;
+        width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0 0;
     }
 
     .card{
